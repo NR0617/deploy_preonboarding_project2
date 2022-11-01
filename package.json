@@ -28,7 +28,6 @@
     "lint": "eslint --cache .",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://nr0617.github.io/deploy_preonboarding_project2",
   "eslintConfig": {
     "extends": [
       "react-app",
