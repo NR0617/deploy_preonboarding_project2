@@ -6,7 +6,7 @@ export const getIssueList = async page => {
     data: `sort=comments&state=open&per_page=10&page=${page}`,
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `${process.env.REACT_APP_GITHUB_TOKEN}`,
+      // Authorization: `${process.env.REACT_APP_GITHUB_TOKEN}`,
     },
   });
 

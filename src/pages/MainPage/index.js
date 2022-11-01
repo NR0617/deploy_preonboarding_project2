@@ -41,16 +41,14 @@ const MainPage = () => {
   }, [page]);
   useEffect(() => {
     try {
-      if ((page === 1 || page === 2) && !issueDataArray === false) {
-        setIssueDataArr([...issueDataArray]);
-      } else if (page > 2 && !issueDataArray === false) {
+      if (page >= 1 && !issueDataArray === false) {
         setIssueDataArr(prev => [...prev, ...issueDataArray]);
       }
     } catch (e) {
       console.log(e.message);
       navigate('/error');
     }
-  }, [loading, page]);
+  }, [loading]);
 
   if (error) navigate('/error');
 

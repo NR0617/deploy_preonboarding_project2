@@ -20,13 +20,15 @@
   },
   "scripts": {
     "postinstall": "husky install",
-    "start": "react-scripts start",
+    "start": "PUBLIC_URL=/ react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write --cache .",
-    "lint": "eslint --cache ."
+    "lint": "eslint --cache .",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://nr0617.github.io/deploy_preonboarding_project2",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -48,6 +50,7 @@
   "devDependencies": {
     "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",
+    "gh-pages": "^4.0.0",
     "husky": "^8.0.1",
     "prettier": "^2.7.1"
   }
