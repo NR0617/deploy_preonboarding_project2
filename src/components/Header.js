@@ -6,6 +6,7 @@ const Header = () => {
     left: 0;
     right: 0;
     color: white;
+    width: 100vw;
     height: 4em;
     font-weight: bold;
     font-size: 2em;

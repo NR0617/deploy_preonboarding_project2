@@ -3,10 +3,10 @@ import styled from 'styled-components';
 //IssueList Components
 export const ItemContainer = styled.div`
   border-bottom: 1px solid black;
-  padding: 10px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 5px;
+  width: 90%;
 `;
 export const ItemDetails = styled.div`
   flex-basis: 70%;
@@ -37,6 +37,19 @@ export const CommentCounter = styled.div`
   }
 `;
 
+export const AdImg = styled.img`
+  width: 12em;
+  height: 5em;
+  margin: auto 0;
+`;
+
+export const AdContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+`;
+
 //DetailPage Components
 export const UserAvaterImg = styled.img`
   width: 4em;
@@ -48,8 +61,12 @@ export const MarkdownContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
-    overflow: visible;
+    width: 70vw;
+    height: fit-content;
+
+    pre {
+      white-space: pre-wrap;
+    }
   }
 `;
 // ErrorPage Components

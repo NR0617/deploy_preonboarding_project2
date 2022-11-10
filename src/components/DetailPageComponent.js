@@ -1,5 +1,7 @@
 import * as Styled from './style';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
 
 const DetailPageComponent = ({ detailPageData }) => {
   const markdown = detailPageData.body;
@@ -22,7 +24,15 @@ const DetailPageComponent = ({ detailPageData }) => {
         </Styled.CommentCounter>
       </Styled.ItemContainer>
       <Styled.MarkdownContainer>
-        <ReactMarkdown>{markdown}</ReactMarkdown>
+        <ReactMarkdown
+          rehypePlugins={[rehypeRaw]}
+          remarkPlugins={[remarkGfm]}
+          children={markdown}
+          style={{ margin: '1px 5px' }}
+          components={{
+            img: ({ node, ...props }) => <img style={{ maxWidth: '100%' }} {...props} alt="" />,
+          }}
+        />
       </Styled.MarkdownContainer>
     </>
   );

@@ -1,0 +1,6 @@
+.App {
+  pre {
+    width: 80vw;
+    white-space: pre-wrap;
+  }
+}

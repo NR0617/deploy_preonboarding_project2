@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 export const PageContainer = styled.div`
-  padding: 10em 10em 0 10em;
+  margin: 10em 5em 0 5em;
+  /* height: 100vh; */
+
   @media screen and (max-width: 768px) {
-    padding: 8em 0;
   }
+  margin: 10em 1em 0 1em;
 `;
