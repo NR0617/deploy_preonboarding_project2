@@ -5,8 +5,8 @@ export const ItemContainer = styled.div`
   border-bottom: 1px solid black;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5px;
-  width: 90%;
+  margin-bottom: 10px;
+  width: 100%;
 `;
 export const ItemDetails = styled.div`
   flex-basis: 70%;
@@ -47,7 +47,7 @@ export const AdContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
+  width: 100%;
 `;
 
 //DetailPage Components
@@ -55,6 +55,10 @@ export const UserAvaterImg = styled.img`
   width: 4em;
   height: 4em;
   margin: auto 0;
+  @media screen and (max-width: 768px) {
+    width: 3em;
+    height: 3em;
+  }
 `;
 export const MarkdownContainer = styled.div`
   @media screen and (max-width: 768px) {

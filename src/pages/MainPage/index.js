@@ -73,16 +73,17 @@ const MainPage = () => {
                 );
               } else if (idx === 4) {
                 return (
-                  <div key={idx}>
+                  <>
                     <AdsBox />
                     <IssueList
+                      key={idx}
                       number={el.number}
                       title={el.title}
                       user={el.user}
                       created_at={el.created_at}
                       comments={el.comments}
                     />
-                  </div>
+                  </>
                 );
               } else if (idx > 4) {
                 return (
