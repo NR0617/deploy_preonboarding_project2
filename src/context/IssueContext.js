@@ -79,7 +79,7 @@ export function useListDispatch() {
   }
   return dispatch;
 }
-export const getDataList = async (dispatch, page = null) => {
+export const getDataList = async (dispatch, page) => {
   dispatch({ type: 'GET_DATALIST' });
   try {
     const response = await axios.get(

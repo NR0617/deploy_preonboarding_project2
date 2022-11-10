@@ -35,10 +35,12 @@ const MainPage = () => {
       observer && observer.disconnect();
     };
   }, [handleObserver, loader]);
+
   useEffect(() => {
     if (page === undefined) setPage(0);
     getDataList(dispatch, page);
   }, [page]);
+
   useEffect(() => {
     try {
       if (page >= 1 && !issueDataArray === false) {
