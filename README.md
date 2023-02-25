@@ -113,6 +113,6 @@ deploy_preonboarding_project2
 
 ```
 
-<img src="https://user-images.githubusercontent.com/94212747/221350499-3c12cfbd-8ca9-496f-a0dd-88219bc7ef5f.jpg" width=50% height=50%/>
-<img src="https://user-images.githubusercontent.com/94212747/221350500-e48b0f2e-efaa-4461-b241-0acd4389c72d.jpg" width=50% height=50%/>
+<img src="https://user-images.githubusercontent.com/94212747/221350499-3c12cfbd-8ca9-496f-a0dd-88219bc7ef5f.jpg" width=50% height=50%/> <img src="https://user-images.githubusercontent.com/94212747/221350500-e48b0f2e-efaa-4461-b241-0acd4389c72d.jpg" width=50% height=50%/>
+
 
