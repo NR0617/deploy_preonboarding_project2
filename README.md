@@ -63,8 +63,10 @@ deploy_preonboarding_project2
 
 ## 작업한 내용
 
-## Assignment1. 이슈 목록 및 상세 화면 기능 구현
+<img src="https://img.shields.io/badge/styled components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 
+
+## Assignment1. 이슈 목록 및 상세 화면 기능 구현
 
 - **Infinity Scroll 구현**
 
@@ -110,4 +112,7 @@ deploy_preonboarding_project2
   }, [loading]);
 
 ```
+
+<img src="https://user-images.githubusercontent.com/94212747/221350499-3c12cfbd-8ca9-496f-a0dd-88219bc7ef5f.jpg" width=50% height=50%/>
+<img src="https://user-images.githubusercontent.com/94212747/221350500-e48b0f2e-efaa-4461-b241-0acd4389c72d.jpg" width=50% height=50%/>
 
