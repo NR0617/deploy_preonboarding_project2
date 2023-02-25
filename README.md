@@ -111,6 +111,3 @@ deploy_preonboarding_project2
 
 ```
 
-
-### 그 외 기능(옵션)
-- 헤더의 로고 클릭시 메인 페이지 이동 기능
