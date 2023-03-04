@@ -1,5 +1,4 @@
-## 배포
-[sprightly-entremet-3806fc.netlify.app/](https://sprightly-entremet-3806fc.netlify.app/)
+## <a href ="https://sprightly-entremet-3806fc.netlify.app/">데모페이지 </a>
 
 ![무제_AdobeExpress](https://user-images.githubusercontent.com/94212747/221350595-d0493c62-11fd-4463-8fe4-3a3fc1516e30.gif)
 
@@ -52,17 +51,6 @@ deploy_preonboarding_project2
 
 💡 ci : CI관련 설정 수정에 대한 커밋
 
-## **코딩 컨벤션**
-- 컴포넌트의 ID사용은 지양한다.  
-- react의 state는 여러개 사용시 최소 집합을 찾아 사용한다.
-- 컴포넌트의 이벤트에서 불필요한 익명함수를 사용하지 않는다. (예시: 함수의 인자가 event 하나인 경우)
-- 코드를 설명하는 주석은 가급적 사용하지 않는다.
-- 상수는 영문 대문자 스네이크 표기법(Snake case)를 사용한다.(예시: SYMBOLIC_CONSTANTS)
-- 반환 값이 불린인 함수는 'is'로 시작한다
-- const와 let은 사용 시점에 선언 및 할당한다.
-- 함수는 사용 전에 선언해야 하며, 함수 선언문은 변수 선언문 다음에 오도록 한다.
-- 이벤트 핸들러는 'on'으로 시작한다.
-- 한 줄짜리 블록일 경우라도 {}를 생략하지 않으며 명확히 줄 바꿈 하여 사용한다.
 
 
 ## 작업한 내용
